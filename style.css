@@ -1,0 +1,50 @@
+
+body{
+    
+    background-color:rgb(27, 110, 138) ;
+    margin: 0;
+    
+}
+.container{
+    text-align: center;
+    margin-top: 80px;
+    color: white;  
+    margin: 25px; 
+    
+}
+
+.inputname{
+    margin: 5px; 
+    border: 0px; 
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+
+}
+.dob{
+    margin: 5px;
+    width: 165px;
+    padding: 3px;
+    cursor: pointer;
+    outline: none;
+}
+.img{
+    margin: 5px;
+    padding-left: 82px;
+    outline: none;
+    }
+    
+.submit{
+        margin: 22px; 
+        border: 0px; 
+        padding: 5px;
+        background-color:white  ; 
+        color: rgb(27, 110, 138); 
+        border-radius: 3px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .container input[type="submit"]:hover{
+        background-color: #000;
+    }
+    

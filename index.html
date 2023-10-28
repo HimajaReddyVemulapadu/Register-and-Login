@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Edu Technologies|Register</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div style="text-align: center; color: white;">
+        <p style="font-size: 30px; margin-bottom:5px; margin-top: 5px;">SR Edu Technologies</p>
+        <p style="font-size: 15px; margin-top: 0%;">Innovate.Educate.Elevate</p>
+    </div>
+    <div class="container">
+
+        <form id="jqueryformvalidation" action="inser.php" method="post">
+            <label for="username">Name</label><br>
+            <input id="username" class="inputname" type="text" name="username" required><br>
+            <label for="age">Age</label><br>
+            <input id="age" class="inputname" type="number" name="age" min="1" required><br>
+            <label for="validateEmail">Email</label><br>
+            <input id="validateEmail" class="inputname" type="email" name="emailaddress" required><br>
+            <label for="dob">DOB</label><br>
+            <input id="dob" class="dob" type="date" name="dob" required><br>
+            <label for="validateno">Contact No</label><br>
+            <input id="validateno" class="inputname" type="tel" name="contactno" maxlength="10" required><br>
+            <label for="password">Password</label><br>
+            <input id="password" class="inputname" type="password" name="password" required><br>
+            <label for="imginput">Profile image</label><br>
+            <input id="imginput" class="img" type="file" name="profileimg" onchange="validateimg()" required><br>
+            <input class="submit" type="submit" name="register" value="Register" onclick="myregistration()">
+
+
+        </form>
+        <div style="color: white">
+            Already registered? <a style="color: white;" href="index1.html" target="_blank">Login,</a> else <a style="color: white;" href="index.html" target="_blank">Signup</a>
+        </div>
+
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script> -->
+    <!-- <script type="text/javascript" src="/custom.js"></script> -->
+    <script type="text/javascript" src="javas.js"></script>
+</body>
